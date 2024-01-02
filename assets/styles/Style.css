@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+}
+
+#home{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url("../images/banner2.png");
+    background-size: cover;
+    background-position: 50% 50%;
+}
