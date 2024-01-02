@@ -5,9 +5,24 @@ body{
     background-color: black;
 }
 
+header{
+    z-index: 5;
+    width: 100vw;
+    color: white;
+    display: flex;
+}
+
+header h2{
+    margin-left: 10%;
+}
+
+header h2 span{
+    color: #ffc107;
+}
+
 #home{
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     overflow: hidden;
     background-image: url("../images/banner2.png");
     background-size: cover;
