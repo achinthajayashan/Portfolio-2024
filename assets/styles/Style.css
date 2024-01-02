@@ -47,6 +47,43 @@ header nav ul{
     align-items: center;
     color: white;
     font-size: 60px;
+
 }
 
+#home h1{
+    display:inline-flex;
+    /*margin: 0;*/
+    vertical-align: center;
+    justify-content: center;
+    align-items: center;
+    /*margin-left: -30%;*/
+    horiz-align: center;
+    text-align: center;
+}
 
+#home h1 .word{
+    position: absolute;
+    display: flex;
+    opacity: 0;
+}
+
+#home h1 .word .letter{
+    transform-origin: center center 25px;
+}
+
+#home h1 .word .letter.out{
+    transform: rotateX(90deg);
+    transition: 0.32s cubic-bezier(0.6 ,0 ,0.7 ,0.2);
+}
+
+#home h1 .word .letter.in{
+    transition: 0.8s ease;
+}
+
+#home h1 .word .letter.behind{
+    transform: rotateX(-90deg);
+}
+
+.t2 , .t4{
+    color: #ffc107;
+}
