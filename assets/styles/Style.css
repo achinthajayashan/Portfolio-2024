@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 body{
+    font-family: 'Montserrat', sans-serif;
     background-color: black;
 }
 
@@ -9,4 +12,11 @@ body{
     background-image: url("../images/banner2.png");
     background-size: cover;
     background-position: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 60px;
 }
+
+
