@@ -10,6 +10,7 @@ header{
     width: 100vw;
     color: white;
     display: flex;
+    justify-content: space-between;
 }
 
 header h2{
@@ -18,6 +19,20 @@ header h2{
 
 header h2 span{
     color: #ffc107;
+    font-size: 30px;
+}
+
+header nav{
+    margin-right: 10%;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
 }
 
 #home{
