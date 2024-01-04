@@ -112,6 +112,8 @@ button:hover{
     flex-wrap: wrap-reverse;
     width: 100vw;
     height: auto;
+    margin-bottom: 20vh;
+
 
 }
 
@@ -169,4 +171,47 @@ button:hover{
 
 svg{
     margin-right: 10px;
+}
+
+#services{
+    width: 100vw;
+    height: auto;
+    color: white;
+}
+
+#services h2{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+
+#services .services-list{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 100px;
+}
+
+.service{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.service .imgService{
+    margin-top: 15px;
+    width: 20%;
+}
+
+.txtService{
+    margin: 0;
+    width: 80%;
+}
+
+.txtService p{
+    color: darkgray;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 20px;
 }
