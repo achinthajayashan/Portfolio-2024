@@ -3,6 +3,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: black;
+    scroll-behavior: smooth;
 }
 
 header{
@@ -230,6 +231,7 @@ svg{
     align-items: center;
     justify-content: center;
     color: white;
+    margin-bottom: 15%;
 }
 
 .hiremesec h1{
@@ -239,4 +241,73 @@ svg{
     width: 50%;
     text-align: center;
     margin-bottom: 40px;
+    line-height: 30px;
+}
+
+.projects{
+    width: 100vw;
+    height: auto;
+    color: white;
+}
+
+.projects h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+.projects-sec{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 100px;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+.project figure img{
+    width: 100%;
+
+}
+
+.project h4{
+    margin: 0;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.project p{
+    color: darkgray;
+}
+
+.project h5{
+    color: #ffc107;
+}
+
+.project h3{
+    margin: 0;
+}
+
+.project p{
+    margin: 0;
+    line-height: 25px;
+}
+
+
+footer{
+    padding-top: 3%;
+    /*border-top: 0.5px solid gray;*/
+    text-align: center;
+    color: white;
+    padding-bottom: 3%;
+}
+
+footer h2 span{
+    color: #ffc107;
+    font-size: 30px;
 }
