@@ -112,7 +112,7 @@ button:hover{
     flex-wrap: wrap-reverse;
     width: 100vw;
     height: auto;
-    margin-bottom: 20vh;
+    margin-bottom: 15%;
 
 
 }
@@ -191,6 +191,7 @@ svg{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 100px;
+    margin-bottom: 15%;
 }
 
 .service{
