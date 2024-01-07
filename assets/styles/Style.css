@@ -416,3 +416,121 @@ footer h2 span{
     color: #ffc107;
     font-size: 30px;
 }
+
+@media all and (min-width: 375px) and (max-width: 426px){
+    header nav{
+        display: none;
+    }
+
+    header h2{
+    }
+
+    #home{
+        font-size: 16px;
+    }
+
+    #about{
+        margin-right: 0;
+        width: 100vw;
+    }
+
+    #about div{
+        width: 100vw;
+    }
+
+    #about .aboutDetails{
+        width: 100vw;
+        margin-right: 10%;
+    }
+
+    #about .imgDiv{
+        width: 100%;
+    }
+
+    #about .imgDiv img{
+        width: 300px; !important;
+    }
+
+    #services .services-list{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .hiremesec p{
+        display: none;
+    }
+
+    .hiremesec h1{
+        text-align: center;
+    }
+
+    .projects-sec{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #skillsSec .skillgrid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #contactSec .contactGrid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media all and (min-width: 426px) and (max-width: 769px){
+    header nav{
+        display: none;
+    }
+
+    header h2{
+    }
+
+    #home{
+        font-size: 16px;
+    }
+
+    #about{
+        margin-right: 0;
+        width: 100vw;
+    }
+
+    #about div{
+        width: 100vw;
+    }
+
+    #about .aboutDetails{
+        width: 100vw;
+        margin-right: 10%;
+    }
+
+    #about .imgDiv{
+        width: 100%;
+    }
+
+    #about .imgDiv img{
+        width: 300px; !important;
+    }
+
+    #services .services-list{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .hiremesec p{
+        display: none;
+    }
+
+    .hiremesec h1{
+        text-align: center;
+    }
+
+    .projects-sec{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #skillsSec .skillgrid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #contactSec .contactGrid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
