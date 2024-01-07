@@ -300,6 +300,40 @@ svg{
     line-height: 25px;
 }
 
+.skillsSec{
+    width: 100vw;
+    height: auto;
+    color: white;
+}
+
+.skillsSec h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+.skillsSec img{
+    width: 70px;
+}
+
+.skillsSec .skillgrid{
+    margin-left: 15%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    row-gap: 60px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.skillsSec .skillgrid i{
+    /*width: 60px;*/
+    margin-right: 0;
+    font-size: 70px;
+}
+
 
 footer{
     padding-top: 3%;
