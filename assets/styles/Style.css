@@ -417,7 +417,7 @@ footer h2 span{
     font-size: 30px;
 }
 
-@media all and (min-width: 375px) and (max-width: 426px){
+@media all and (min-width: 0px) and (max-width: 1000px){
     header nav{
         display: none;
     }
@@ -476,61 +476,61 @@ footer h2 span{
     }
 }
 
-@media all and (min-width: 426px) and (max-width: 769px){
-    header nav{
-        display: none;
-    }
+/*@media all and (min-width: 426px) and (max-width: 769px){*/
+/*    header nav{*/
+/*        display: none;*/
+/*    }*/
 
-    header h2{
-    }
+/*    header h2{*/
+/*    }*/
 
-    #home{
-        font-size: 16px;
-    }
+/*    #home{*/
+/*        font-size: 16px;*/
+/*    }*/
 
-    #about{
-        margin-right: 0;
-        width: 100vw;
-    }
+/*    #about{*/
+/*        margin-right: 0;*/
+/*        width: 100vw;*/
+/*    }*/
 
-    #about div{
-        width: 100vw;
-    }
+/*    #about div{*/
+/*        width: 100vw;*/
+/*    }*/
 
-    #about .aboutDetails{
-        width: 100vw;
-        margin-right: 10%;
-    }
+/*    #about .aboutDetails{*/
+/*        width: 100vw;*/
+/*        margin-right: 10%;*/
+/*    }*/
 
-    #about .imgDiv{
-        width: 100%;
-    }
+/*    #about .imgDiv{*/
+/*        width: 100%;*/
+/*    }*/
 
-    #about .imgDiv img{
-        width: 300px; !important;
-    }
+/*    #about .imgDiv img{*/
+/*        width: 300px; !important;*/
+/*    }*/
 
-    #services .services-list{
-        grid-template-columns: repeat(1, 1fr);
-    }
+/*    #services .services-list{*/
+/*        grid-template-columns: repeat(1, 1fr);*/
+/*    }*/
 
-    .hiremesec p{
-        display: none;
-    }
+/*    .hiremesec p{*/
+/*        display: none;*/
+/*    }*/
 
-    .hiremesec h1{
-        text-align: center;
-    }
+/*    .hiremesec h1{*/
+/*        text-align: center;*/
+/*    }*/
 
-    .projects-sec{
-        grid-template-columns: repeat(1, 1fr);
-    }
+/*    .projects-sec{*/
+/*        grid-template-columns: repeat(1, 1fr);*/
+/*    }*/
 
-    #skillsSec .skillgrid{
-        grid-template-columns: repeat(2, 1fr);
-    }
+/*    #skillsSec .skillgrid{*/
+/*        grid-template-columns: repeat(2, 1fr);*/
+/*    }*/
 
-    #contactSec .contactGrid{
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
+/*    #contactSec .contactGrid{*/
+/*        grid-template-columns: repeat(1, 1fr);*/
+/*    }*/
+/*}*/
