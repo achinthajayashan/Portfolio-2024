@@ -325,7 +325,7 @@ svg{
     gap: 10px;
     row-gap: 60px;
     margin-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
 }
 
 .skillsSec .skillgrid i{
@@ -334,6 +334,57 @@ svg{
     font-size: 70px;
 }
 
+.contactSec{
+    width: 100vw;
+    height: auto;
+    color: white;
+}
+
+.contactSec h2{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.contactSec .contactGrid{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 100px;
+    margin-bottom: 5%;
+}
+
+.contactSec .contactGrid .contact{
+    display: flex;
+
+    /*border: solid 2px white;*/
+    /*padding: 10px;*/
+    /*border-radius: 20px;*/
+}
+
+.contactSec .contactGrid .contact .contactIcon{
+    margin-right: 20px;
+}
+
+.contactDetail a ,p {
+    text-underline: none;
+    text-decoration: none;
+    color: gray;
+}
+
+.contactSec .contactGrid .contact h4{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.socialMediaGrid{
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    margin-bottom: 15%;
+    column-gap: 5%;
+}
 
 footer{
     padding-top: 3%;
